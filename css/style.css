@@ -1146,6 +1146,7 @@ body.lightmode .keep-dark .btn-accent{
 .hero-container {
   position: relative;
   z-index: 3;
+  padding: 100px 20px; /* Add space inside for top & bottom */
 }
 
 
@@ -5217,4 +5218,13 @@ body.lightmode .cta-service-banner::before{
     .legal-link{
         font-size: var(--font-size-xs);
     }
+
+     .banner-video-container {
+    height: auto; /* Let height adjust naturally */
+    justify-content: flex-start; /* Remove center alignment */
+  }
+
+  .hero-container {
+    padding: 30px 15px; /* Smaller padding on mobile */
+  }
 }
