@@ -583,6 +583,10 @@ body.lightmode .form select{
 .colored-icon {
   filter: invert(53%) sepia(89%) saturate(3041%) hue-rotate(189deg) brightness(97%) contrast(97%);
 }
+.tinted-video {
+  width: 400px;
+  filter: invert(53%) sepia(89%) saturate(3041%) hue-rotate(189deg) brightness(97%) contrast(97%);
+}
 
 
 .search-form input:focus {
