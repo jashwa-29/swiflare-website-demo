@@ -340,7 +340,9 @@ ul{
 /* ================== 05. Global Layout Styles ================== */
 
 .section {
-    padding: 120px 20px 120px 20px;
+    
+    /* padding: 120px 20px 120px 20px; */
+    padding: 0px 20px 0px 20px;
 }
 
 .hero-container {
@@ -664,7 +666,7 @@ body.lightmode .form select{
     line-height: var(--line-height-loose);
     color: var(--primary);
     background-color: transparent;
-    padding: 8px 16px 8px 16px !important;
+    padding: 8px 12px 8px 12px !important;
 }
 
 .navbar-nav{
@@ -1159,6 +1161,11 @@ body.lightmode .keep-dark .btn-accent{
   padding: 100px 20px; /* Add space inside for top & bottom */
 }
 
+.container {
+  position: relative;
+  z-index: 3;
+  /* Add space inside for top & bottom */
+}
 
 /* ================== 14. Banner Components ================== */
 
@@ -1390,7 +1397,7 @@ body.lightmode .banner-layout-wrapper::before {
     background-image: radial-gradient(at top left, var(--accent-color-3), var(--secondary) 50%);
     gap: 0px 50px;
     border-radius: var(--global-border-radius);
-    padding: 120px 20px 0px 20px;
+    padding: 70px 20px 0px 20px;
     position: relative;
     width: 100%;
     z-index: 1;
@@ -1430,7 +1437,7 @@ body.lightmode .banner-layout-wrapper::before {
     overflow: hidden;
     border: 1px solid var(--accent-color-3);
     border-radius: var(--global-border-radius);
-    padding: 120px 20px 120px 20px;
+    padding: 70px 20px 70px 20px;
     z-index: 1;
 }
 
@@ -3093,7 +3100,7 @@ body.lightmode .case-studies-content::before{
     flex-direction: column;
     overflow: hidden;
     border-radius: var(--global-border-radius);
-    padding: 250px 20px 120px 20px;
+    padding: 100px 20px 100px 20px;
     border: 1px solid var(--accent-color-3);
     position: relative;
     z-index: 1;

@@ -12,7 +12,7 @@ Promise.all([
     $("#search-form-container").html(searchHTML);
   })
   .then(() => {
-    initBannerVideo();
+    // initBannerVideo();
     initNavLink();
     initSidebar();
     initEditSidebar();
