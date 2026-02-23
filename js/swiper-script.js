@@ -30,6 +30,30 @@ $(function(){
 });
 
 $(function(){
+    var swiperTeam = new Swiper('.swiper.swiperTeam',{
+        autoplay: {
+            delay: 5000,
+        },
+        speed: 1000,
+        slidesPerView: 3,
+        spaceBetween: 20,
+        loop: false,
+        grabCursor: true,
+        breakpoints: {
+            1025:{
+                slidesPerView: 3,
+            },
+            769:{
+                slidesPerView: 2
+            },
+            319: {
+                slidesPerView: 1,
+            },
+        },
+    });
+});
+
+$(function(){
     var swiperTestimonial = new Swiper('.swiper.swiperTestimonial',{
         autoplay: {
             delay: 5000,
