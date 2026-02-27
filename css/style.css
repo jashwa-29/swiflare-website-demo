@@ -2203,7 +2203,17 @@ body.lightmode .card-partner{
     margin: 10px 10px 10px 10px;
     border-radius: 20px 20px 20px 20px;
     transition-duration: 0.6s;
-    box-shadow: var(--box-shadow-bottom-right-wide)
+    box-shadow: var(--box-shadow-bottom-right-wide);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Container height */
+}
+
+.partner-logo {
+    height: 50px; /* Logo height */
+    width: auto;
+    object-fit: contain;
 }
 
 .swiperPartner .partner-slide:hover{
@@ -2589,7 +2599,7 @@ body.lightmode .case-studies-content::before{
 }
 
 .seo-image-card::before {
-    background-image: linear-gradient(180deg, rgba(var(--secondary-rgb), 0.6) 0%, var(--secondary) 90%) !important;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.82) 100%) !important;
     opacity: 1 !important;
 }
 
@@ -2886,7 +2896,7 @@ body.lightmode .case-studies-content::before{
     position: relative;
     overflow: hidden;
     max-width: 100%;
-    height: auto;
+    height: 280px; /* Fixed height for consistency */
     transition: all 0.4s ease;
 }
 
@@ -4859,9 +4869,7 @@ body.lightmode .cta-service-banner::before{
     .nav-btn{
         display: block;
     }
-    .title-heading-banner{
-        /* background-image: linear-gradient(340deg, var(--accent-transparent) 10%, var(--primary) 100%); */
-    }
+
     .about-img-layout{
         width: 100%;
     }

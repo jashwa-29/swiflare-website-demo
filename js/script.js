@@ -418,14 +418,20 @@ $(document).ready(function () {
     {
       title: "Blog",
       description:
-        "Our Blog Home / Blog Insights & Trends Latest Digital Marketing Strategies & Tips Explore our latest blog articles covering industry trends, expert insights, and actionable strategies to elevate your digital marketing game. View All Articles April 14, 2025 Social Media Mastering Instagram and Facebook Ads Lorem ipsum dolor si consectetur adipiscing elit ut elit […]",
+        "Our Blog Insights & Trends Latest Digital Marketing Strategies & Tips Explore our latest blog articles covering industry trends, expert insights, and actionable strategies to elevate your digital marketing game. View All Articles February 27, 2026 Social Media Marketing Mastering Instagram and Facebook Ads for Business Growth Learn how to create high-converting Instagram and Facebook ad campaigns that increase brand awareness, drive engagement, and generate quality leads. Discover targeting strategies, ad creatives, budgeting tips, and performance optimization techniques.",
       url: "blog.html",
     },
     {
-      title: "Single Post",
+      title: "Mastering Instagram and Facebook Ads for Business Growth",
       description:
-        "Growth Strategies for Digital Businesses Home / Single Post Recent Blog April 14, 2025 Mastering Instagram and Facebook Ads April 14, 2025 Growth Strategies for Digital Business Transform Your Business with Marko! Take your digital marketing to the next level with data-driven strategies and innovative solutions. Let's create something amazing together! Read More How to […]",
-      url: "single_post.html",
+        "Learn how to run high-converting Instagram and Facebook Ads for business growth. Discover targeting strategies, ad optimization tips, and proven digital marketing techniques to generate quality leads and increase ROI. Targeted audience reach, brand visibility, and better return on ad spend (ROAS).",
+      url: "blog/mastering-instagram-and-facebook-ads-for-business-growth.html",
+    },
+    {
+      title: "Proven Growth Strategies for Digital Business Success",
+      description:
+        "Explore powerful digital marketing and SEO strategies that improve search engine rankings, increase website traffic, and strengthen your online presence. Understand how content marketing, keyword optimization, and performance tracking drive measurable business growth. SEO, Social Media, Content Marketing, and Website Optimization.",
+      url: "blog/proven-growth-strategies-for-digital-business-success.html",
     },
     {
       title: "Contact Us",
