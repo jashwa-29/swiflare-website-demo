@@ -3,13 +3,15 @@ Promise.all([
   fetch("footer.html").then((res) => res.text()),
   fetch("sidebar.html").then((res) => res.text()),
   fetch("search-form.html").then((res) => res.text()),
+  fetch("testimonial-section.html").then((res) => res.text()),
 ])
-  .then(([headerHTML, footerHTML, sidebarHTML, searchHTML]) => {
+  .then(([headerHTML, footerHTML, sidebarHTML, searchHTML, testimonialHTML]) => {
     $("#header").html(headerHTML);
     $("#footer").html(footerHTML);
     $("#sidebar").html(sidebarHTML);
     $("#edit-sidebar").html(sidebarHTML);
     $("#search-form-container").html(searchHTML);
+    $("#testimonial-section").html(testimonialHTML);
   })
   .then(() => {
     // initBannerVideo();
